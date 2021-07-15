@@ -183,3 +183,135 @@ h3.menu-item-title {
     width: 100%;
   }
 }
+
+/*Sign up Form */
+
+
+.signup-left input[type], select {
+  width: 50%;
+  margin-left: 2em;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.signup-left label{
+  margin-left: 2em;
+}
+.signup-left button{
+  width: 50%;
+  margin-left: 2em;
+  margin-top: 2em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  font-weight: bolder;
+  background-color:  #557c3e;
+}
+.signup-left button:hover{
+  width: 50%;
+  margin-left: 2em;
+  margin-top: 2em;
+  background-color: #2a411d;
+  border-color: #2a411d;
+}
+.signup{
+    padding: 20px;
+    margin-bottom: 45%;
+
+}
+.signup-left {
+  background-color: #ffffff;
+  width: 40%;
+  width: 48%;
+  float: left;
+  padding: 20px;
+
+}
+.signup-right{
+  background-color: #557c3e;
+  width: 50%;
+    float: left;
+    margin-left: 1em;
+
+}
+.signup-right h1{
+  margin-left: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.signup h2{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 4em;
+  margin-bottom: 1em;
+  color: #ffffff;
+}
+
+
+.signup-left .ng-touched.ng-valid {
+  border: 2px green solid;
+}
+
+.signup-left .ng-touched.ng-invalid {
+  border: 5px red solid;
+}
+
+.menu-item-tile .row{
+  background-color: #3F0C1F;
+  margin-left: 2em;
+  width: 100%;
+}
+
+
+/* Your information */
+
+
+
+.myinfo{
+  padding: 20px;
+  margin-bottom: 40%;
+
+}
+#myinfo-form{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3em;
+  color: #ffffff;
+}
+
+.myinfo-me {
+background-color: #000000;
+width: 40%;
+width: 48%;
+float: left;
+padding: 20px;
+
+}
+.myinfo-dish div{
+
+width: 50%;
+  float: left;
+  margin-left: 1em;
+
+}
+
+.myinfo-alert div{
+  background-color: #660e2f;;
+  color: rgb(255, 255, 255);
+  border: 0ch;
+}
+.myinfo-alert h2{
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.myinfo-alert button{
+  margin: 1em;
+  background-color: rgb(255, 255, 255);
+  color: #3F0C1F;
+  font-size: 2em;
+  font-weight: bold;
+
+}
+.myinfo-alert button:hover{
+  background-color: #ffffff;
+}
